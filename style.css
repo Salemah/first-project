@@ -9,7 +9,7 @@ height: 100vh;
 }
 .navbar{
 
-   height: 80px;
+   height: 12%;
    width: 100%;
    background: rgba(0,0,0,0.4 );
 }
@@ -71,7 +71,7 @@ height: 100vh;
 .buttn{
 	margin: 35px 280px;
 }
-.buttn button{
+button{
     
 	height: 50px;
 	width: 150px;
@@ -90,4 +90,112 @@ height: 100vh;
 }
 .buttn button:hover{
 	background: #cc0000;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(204, 203, 200);
+
+}
+
+.mid{
+    display: inline-block;
+    width: 25%;
+    background-color: burlywood;
+    /* border: 5px solid crimson; */
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 35px;
+    padding: 25px;
+    box-shadow: 15px 15px linen;
+    }
+
+
+
+div h1, p{
+text-align: center;
+}
+
+
+.pr{
+text-align: justify;
+}
+span{
+color:darkmagenta;
+font-size: 15px;
+font-weight: 700;
+}
+
+img {
+width: 100%;
+}
+#vlog-page-title{
+    width: 50%;
+    margin: auto;
+    padding: 1%;
+    text-align: center
+
+}
+#title-Text{
+    font-size: 50px;
+}
+hr{
+    border: 1px solid black;
+}
+.vlog-post-section{
+    display: flex;
+    justify-content: space-between; 
+     width: 100%;
+    text-align: center;
+    margin-bottom: 2%;
+    
+
+}
+.vlog-content{
+    display: inline-block;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 12px;
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.vlog-article-container{
+    background: white;
+    padding :3% 5% 3%;
+    margin-bottom: 2%;
+}
+#post-one {
+
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#post-two {
+    margin-right: 2%;
+}
+.vlog-article-upper{
+    
+    padding: 10px;
+}
+
+.vlog-article {
+    width: 100%;
+    text-align: justify;
+}
+.vlog-img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+.vlog-author {
+    font-size: 12px;
+    display: block;
+}
+.vlog-article-upper {
+    background-color: rgb(161, 120, 207);
+    padding: 2% 1%;
 }
