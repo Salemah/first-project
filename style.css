@@ -15,9 +15,9 @@ height: 100vh;
 }
 .logo{
     width: 140px;
-    height: auto;
-    margin-bottom: 0px;
-    padding: 20px 100px;
+    height: 80px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
 
 }
 .navbar ul{
